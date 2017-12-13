@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Demo.Nugets.One</id>
+    <version>1.0.0.0</version>
+    <title>Demo Component for buid tests.</title>
+    <authors>Risto-Matti Ratilainen</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This component is built with automated build VSTS for demo purposes.</description>
+    <summary />
+    <dependencies>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\release\MyDemoComponent1.dll" target="lib\net451\MyDemoComponent1.dll" />
+  </files>
+</package>
