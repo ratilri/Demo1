@@ -10,6 +10,7 @@ namespace MyDemoComponent1
     {
         public static String TestMethod(Parameters parameters)
         {
+            //test
             Console.WriteLine(parameters.prop1);
             return parameters.prop1;
         }
