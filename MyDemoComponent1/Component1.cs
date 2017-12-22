@@ -12,8 +12,6 @@ namespace MyDemoComponent1
         {
 
             //plaa
-            //test f
-
             Console.WriteLine(parameters.prop1);
             return parameters.prop1;
         }
