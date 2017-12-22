@@ -11,6 +11,7 @@ namespace MyDemoComponent1
         public static String TestMethod(Parameters parameters)
         {
             //plaa
+            string jee = "dads";
             Console.WriteLine(parameters.prop1);
             return parameters.prop1;
         }
