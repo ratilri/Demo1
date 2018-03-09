@@ -57,6 +57,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Component1Tests.cs" />
+    <Compile Include="ConfigHandlerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +67,10 @@
     <ProjectReference Include="..\MyDemoComponent1\MyDemoComponent1.csproj">
       <Project>{868403DD-E971-41BF-8FE6-427EE8E46EE7}</Project>
       <Name>MyDemoComponent1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestConfigurationHandler\TestConfigurationHandler.csproj">
+      <Project>{E376FC7C-1129-419B-B042-73BD86A0EC9C}</Project>
+      <Name>TestConfigurationHandler</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
