@@ -16,7 +16,8 @@ namespace TestConfigurationHandler.Tests
         {
 
             var t = ConfigHandler.ReadConfigValue("Test");
-
+            System.Diagnostics.Trace.WriteLine(t);
+            Assert.IsTrue(!String.IsNullOrEmpty((string)t));
         }
     }
 }
